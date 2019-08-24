@@ -1,0 +1,117 @@
+let LIST = [{
+  type: '类型1',
+  imageList: [{
+    img: require('../logo.png'),
+    type: '类型1',
+    id: 11,
+    creatTime: '2019-01-01'
+  }, {
+    img: require('../logo.png'),
+    type: '类型1',
+    id: 12,
+    creatTime: '2019-01-02'
+  }, {
+    img: require('../logo.png'),
+    type: '类型1',
+    id: 13,
+    creatTime: '2019-01-03'
+  }, {
+    img: require('../logo.png'),
+    type: '类型1',
+    id: 14,
+    creatTime: '2019-01-04'
+  }]
+}, {
+  type: '类型2',
+  imageList: [{
+    img: require('../logo.png'),
+    type: '类型2',
+    id: 21,
+    creatTime: '2019-02-01'
+  }, {
+    img: require('../logo.png'),
+    type: '类型2',
+    id: 22,
+    creatTime: '2019-02-02'
+  }, {
+    img: require('../logo.png'),
+    type: '类型2',
+    id: 23,
+    creatTime: '2019-02-03'
+  }, {
+    img: require('../logo.png'),
+    type: '类型2',
+    id: 24,
+    creatTime: '2019-02-04'
+  }]
+}, {
+  type: '类型3',
+  imageList: [{
+    img: require('../logo.png'),
+    type: '类型3',
+    id: 31,
+    creatTime: '2019-03-01'
+  }, {
+    img: require('../logo.png'),
+    type: '类型3',
+    id: 32,
+    creatTime: '2019-03-02'
+  }, {
+    img: require('../logo.png'),
+    type: '类型3',
+    id: 33,
+    creatTime: '2019-03-03'
+  }, {
+    img: require('../logo.png'),
+    type: '类型3',
+    id: 34,
+    creatTime: '2019-03-04'
+  }]
+}, {
+  type: '类型4',
+  imageList: [{
+    img: require('../logo.png'),
+    type: '类型4',
+    id: 41,
+    creatTime: '2019-01-02'
+  }, {
+    img: require('../logo.png'),
+    type: '类型4',
+    id: 42,
+    creatTime: '2019-01-03'
+  }, {
+    img: require('../logo.png'),
+    type: '类型4',
+    id: 43,
+    creatTime: '2019-01-04'
+  }, {
+    img: require('../logo.png'),
+    type: '类型4',
+    id: 44,
+    creatTime: '2019-01-04'
+  }]
+}, {
+  type: '类型5',
+  imageList: [{
+    img: require('../logo.png'),
+    type: '类型5',
+    id: 51,
+    creatTime: '2019-01-01'
+  }, {
+    img: require('../logo.png'),
+    type: '类型5',
+    id: 52,
+    creatTime: '2019-02-01'
+  }, {
+    img: require('../logo.png'),
+    type: '类型5',
+    id: 53,
+    creatTime: '2019-03-01'
+  }, {
+    img: require('../logo.png'),
+    type: '类型5',
+    id: 54,
+    creatTime: '2019-04-01'
+  }]
+}]
+export default LIST
