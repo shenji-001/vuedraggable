@@ -4,7 +4,7 @@ import VueRouter from 'vue-router'
 
 Vue.use(VueRouter)
 
-let routes = [{
+const routes = [{
   path: '/',
   redirect: 'index'
 }, {

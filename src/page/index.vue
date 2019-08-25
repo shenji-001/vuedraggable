@@ -5,15 +5,17 @@
          :key="index">
       <div class="button" @click="enReserved(index)">正序</div>
       <div class="button" @click="deReserved(index)">倒序</div>
-      <draggable :list="item.imageList" class="cloumn" :draggable="item.imageList.length > 1 ? '.item' : ''" group="a">
-        <div
-          class="cloumn item"
-          v-for="(item1, index1) in item.imageList"
-          :key="index1">
-          <div>{{item.type}}</div>
-          <img class="img" :src="item1.img">
-          <div>{{item1.creatTime}}</div>
-        </div>
+      <draggable :list="item.imageList" class="cloumn item list-group-item" draggable=".item" group="people">
+        <transition-group type="transition" name="flip-list">
+          <div
+            class="cloumn item"
+            v-for="item1 in item.imageList"
+            :key="item1.creatTime">
+            <div>{{item.type}}</div>
+            <img class="img" :src="item1.img">
+            <div>{{item1.creatTime}}</div>
+          </div>
+        </transition-group>
       </draggable>
     </div>
   </div>
@@ -65,11 +67,6 @@ export default {
     display: flex;
     justify-content: space-around;
   }
-  .row{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-  }
   .cloumn{
     display: flex;
     align-items: center;
@@ -77,5 +74,9 @@ export default {
   }
   .button{
     width: 100px;
+  }
+  span {
+    min-width: 50px;
+    min-height: 50px;
   }
 </style>

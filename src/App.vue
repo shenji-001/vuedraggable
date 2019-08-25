@@ -12,8 +12,8 @@ import { routes } from './router'
 export default {
   name: 'App',
   data () {
-    let incldue = []
-    let exclude = []
+    const incldue = []
+    const exclude = []
     routes.forEach(({ name, meta }) => {
       if (name) {
         exclude.push(name)
